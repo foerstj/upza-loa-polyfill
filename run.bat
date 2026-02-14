@@ -1,5 +1,5 @@
 :: name of map
-set map=upza
+set map=upza-loa-polyfill-demo
 
 :: path of Bits dir
 set bits=%~dp0.
