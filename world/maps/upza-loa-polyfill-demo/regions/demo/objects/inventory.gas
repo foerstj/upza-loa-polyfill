@@ -1,0 +1,14 @@
+[t:st_un_upza_reaper_boss,n:0x00100001]
+{
+	[placement]
+	{
+	  p position = -2,0,-2,0x25370226;
+	}
+}
+[t:st_g_c_upza_goblins_cane_buing,n:0x00100002]
+{
+	[placement]
+	{
+	  p position = 2,0,-2,0x25370226;
+	}
+}
