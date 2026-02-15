@@ -1,0 +1,27 @@
+[t:upza_goblin_npc_grunt_char,n:0x00100003]
+{
+	[inventory]
+	{
+		[equipment]
+		{
+			es_weapon_hand = st_g_c_upza_goblins_cane_buing;
+		}
+	}
+	[placement]
+	{
+	  q orientation = 0,1,0,0;
+	  p position = 2,0,2,0x25370226;
+	}
+}
+[t:upza_reaper,n:0x00100004]
+{
+	[actor]
+	{
+		alignment = aa_neutral;
+	}
+	[placement]
+	{
+	  q orientation = 0,1,0,0;
+	  p position = -2,0,2,0x25370226;
+	}
+}
