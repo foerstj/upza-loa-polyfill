@@ -18,7 +18,7 @@ set author=Johannes Förstner
 
 :: Compile resource file
 rmdir /S /Q "%tmp%\Bits"
-robocopy "%bits%\art\bitmaps" "%tmp%\Bits\art\bitmaps" /S /xf *.psd
+robocopy "%bits%\art\bitmaps" "%tmp%\Bits\art\bitmaps" /S /xf *.psd /xd new
 robocopy "%bits%\art\meshes" "%tmp%\Bits\art\meshes" /S
 robocopy "%bits%\sound" "%tmp%\Bits\sound" /S
 robocopy "%bits%\world\contentdb\components" "%tmp%\Bits\world\contentdb\components" /S /xf *.lqd20
